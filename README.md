@@ -9,14 +9,13 @@ SFX and fades. Kannada, Malayalam, Tamil, Telugu, Hindi, English.
 
 - Windows 10/11 64-bit, NVIDIA graphics card recommended, 8 GB RAM or more
 - Your **own** Claude Pro/Max account and Claude Code ([claude.com/claude-code](https://claude.com/claude-code))
-- The **AdCut app** (the editing engine), from whoever shared this with you,
-  activated with your licence key
+- The **AdCut app** (the editing engine), from whoever shared this with you.
+  It's free, no key needed.
 
 ## Install
 
-1. **Install and activate the AdCut app.** Run `AdCut-Setup-1.1.exe`, open AdCut,
-   send the Machine ID it shows to whoever gave you AdCut, paste the key they
-   send back and click Activate.
+1. **Install the AdCut app.** Run `AdCut-Setup-1.1.exe` (installs for your user,
+   no admin prompt).
 2. **Add the plugin in Claude Code** (terminal `claude`, or the Code tab in the
    Claude desktop app):
 

@@ -28,9 +28,7 @@ Confirm with `ENGINE --where`.
 ## 2. Health checks (report each as ok / problem)
 
 - Engine runs: `ENGINE info "<any folder with clips>"`, or just `ENGINE info .`
-  (an empty result is fine; an error is not). In exe mode an "AdCut licence" error
-  means the app isn't activated: tell the user to open the AdCut app, send the
-  Machine ID it shows to whoever gave them AdCut, and paste the key they get back.
+  (an empty result is fine; an error is not).
 - GPU: `nvidia-smi --query-gpu=name,memory.total --format=csv,noheader`
   (no NVIDIA GPU: transcription still works on CPU, several times slower).
 - Whisper model: present if `<adtools>/models/whisper/large-v3/model.bin` exists
