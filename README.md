@@ -1,0 +1,54 @@
+# AdCut for Claude Code
+
+Edit AI ad reels (Google Flow / Veo clips) by chatting with Claude: it cuts
+breathing pauses, fillers and repeated takes against your script, keeps the
+silent action and emotion beats, punches in on cuts, and adds your transition,
+SFX and fades. Kannada, Malayalam, Tamil, Telugu, Hindi, English.
+
+## What you need
+
+- Windows 10/11 64-bit, NVIDIA graphics card recommended, 8 GB RAM or more
+- Your **own** Claude Pro/Max account and Claude Code ([claude.com/claude-code](https://claude.com/claude-code))
+- The **AdCut app** (the editing engine), from whoever shared this with you,
+  activated with your licence key
+
+## Install
+
+1. **Install and activate the AdCut app.** Run `AdCut-Setup-1.1.exe`, open AdCut,
+   send the Machine ID it shows to whoever gave you AdCut, paste the key they
+   send back and click Activate.
+2. **Add the plugin in Claude Code** (terminal `claude`, or the Code tab in the
+   Claude desktop app):
+
+   ```
+   /plugin marketplace add <github-user>/adcut
+   /plugin install adcut@adcut-local
+   ```
+
+   This is a private repo, so you need to be added as a collaborator and be
+   signed in to GitHub on your PC (`gh auth login`, or Git Credential Manager).
+3. **Run setup once:** `/adcut:setup`. It finds the app, checks the GPU, speech
+   model, SFX and flare folders, and tells you if anything is missing.
+
+## Use
+
+```
+/adcut:edit "D:\Reels\W44 - ML - ABC"
+```
+
+Pass one or more reel folders (a folder with a `Raw Videos` folder inside, or
+the clips themselves). Put the script in the reel folder for best results.
+Claude asks which transition you want, edits, renders, and checks the result.
+Then just tell it what to change ("tighten clip 3", "no whip on clip 7").
+
+Optional: drop your own sound effects into `%LOCALAPPDATA%\AdCut\sfx\`
+(`whoosh`, `flash`, `flare`, `zoom`) and lens flare / light leak videos on
+black into `%LOCALAPPDATA%\AdCut\flares\`.
+
+## Updates
+
+```
+/plugin marketplace update adcut-local
+```
+
+New engine features need a new AdCut app installer as well.

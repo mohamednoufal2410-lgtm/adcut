@@ -1,0 +1,14 @@
+{
+  "name": "adcut-local",
+  "description": "Local marketplace for the AdCut ad-editing plugin.",
+  "owner": {
+    "name": "AdCut"
+  },
+  "plugins": [
+    {
+      "name": "adcut",
+      "source": "./adcut",
+      "description": "Edit AI ad reels (Google Flow / Veo clips) inside Claude Code: cut breathing pauses, fillers and repeated takes, punch-zoom the cuts, add your chosen transition, SFX and fades. Kannada, Malayalam, Tamil, Telugu, Hindi, English."
+    }
+  ]
+}
