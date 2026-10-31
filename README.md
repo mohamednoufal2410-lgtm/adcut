@@ -34,7 +34,7 @@ SFX and fades. Kannada, Malayalam, Tamil, Telugu, Hindi, English.
 **Pre-production** (script + reference image → Veo 3.1 prompts):
 
 ```
-/adcut:direct "D:\Scripts\W44 ML ABC.docx" "D:\Refsef.png" W-44_ML_ABC
+/adcut:direct "D:\Scripts\W44 ML ABC.docx" "D:\Refs\ref.png" W-44_ML_ABC
 ```
 
 Claude writes a first-frame prompt and an exact-schema Veo JSON per dialogue
