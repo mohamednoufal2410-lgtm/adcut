@@ -1,7 +1,7 @@
 {
   "name": "adcut",
-  "description": "Edit AI ad reels (Google Flow / Veo clips) inside Claude Code: cut breathing pauses, fillers and repeated takes, punch-zoom the cuts, add your chosen transition, SFX and fades.",
-  "version": "1.1.0",
+  "description": "AI ad reels end to end in Claude Code: /adcut:direct turns a script and reference into Veo 3.1 first frames and shot JSON; /adcut:edit cuts the Flow clips (pauses, fillers, repeated takes), punch-zooms, adds your transition, SFX and fades.",
+  "version": "1.2.0",
   "author": {
     "name": "AdCut"
   }

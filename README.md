@@ -31,6 +31,19 @@ SFX and fades. Kannada, Malayalam, Tamil, Telugu, Hindi, English.
 
 ## Use
 
+**Pre-production** (script + reference image → Veo 3.1 prompts):
+
+```
+/adcut:direct "D:\Scripts\W44 ML ABC.docx" "D:\Refsef.png" W-44_ML_ABC
+```
+
+Claude writes a first-frame prompt and an exact-schema Veo JSON per dialogue
+line, and sets up the reel folder (`script.md`, `Raw Videos`, `preproduction/`).
+Generate the clips in Google Flow, save them into `Raw Videos` as
+`W-44_ML_ABC_D-1.mp4`, `..._D-2.mp4`, ...
+
+**Edit:**
+
 ```
 /adcut:edit "D:\Reels\W44 - ML - ABC"
 ```
