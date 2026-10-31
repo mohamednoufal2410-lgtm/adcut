@@ -20,7 +20,7 @@ SFX and fades. Kannada, Malayalam, Tamil, Telugu, Hindi, English.
    Claude desktop app):
 
    ```
-   /plugin marketplace add <github-user>/adcut
+   /plugin marketplace add mohamednoufal2410-lgtm/adcut
    /plugin install adcut@adcut-local
    ```
 
