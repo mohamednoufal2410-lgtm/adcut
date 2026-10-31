@@ -9,12 +9,12 @@ SFX and fades. Kannada, Malayalam, Tamil, Telugu, Hindi, English.
 
 - Windows 10/11 64-bit, NVIDIA graphics card recommended, 8 GB RAM or more
 - Your **own** Claude Pro/Max account and Claude Code ([claude.com/claude-code](https://claude.com/claude-code))
-- The **AdCut app** (the editing engine), from whoever shared this with you.
-  It's free, no key needed.
+- The **AdCut app** (the editing engine): free, no key needed.
+  Download `AdCut-Setup-1.1.exe` from [Releases](https://github.com/mohamednoufal2410-lgtm/adcut/releases/latest).
 
 ## Install
 
-1. **Install the AdCut app.** Run `AdCut-Setup-1.1.exe` (installs for your user,
+1. **Install the AdCut app.** Download `AdCut-Setup-1.1.exe` from [Releases](https://github.com/mohamednoufal2410-lgtm/adcut/releases/latest) and run it (installs for your user,
    no admin prompt).
 2. **Add the plugin in Claude Code** (terminal `claude`, or the Code tab in the
    Claude desktop app):
@@ -24,8 +24,6 @@ SFX and fades. Kannada, Malayalam, Tamil, Telugu, Hindi, English.
    /plugin install adcut@adcut-local
    ```
 
-   This is a private repo, so you need to be added as a collaborator and be
-   signed in to GitHub on your PC (`gh auth login`, or Git Credential Manager).
 3. **Run setup once:** `/adcut:setup`. It finds the app, checks the GPU, speech
    model, SFX and flare folders, and tells you if anything is missing.
 
